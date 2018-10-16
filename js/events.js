@@ -9,14 +9,14 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    console.log($('img').classList)
+    console.log("loaded Image")
   });
   return;
 }
 
 $(document).ready(function(){
   getIt();
-  frameIt();
+  //frameIt();
 // call functions here
 
 });
