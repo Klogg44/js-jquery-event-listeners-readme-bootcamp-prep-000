@@ -9,7 +9,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    console.log("loaded Image")
+    console.log("loaded Image");
   });
   return console.log('complete');
 }
