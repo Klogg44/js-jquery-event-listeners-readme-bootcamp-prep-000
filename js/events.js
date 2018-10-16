@@ -13,6 +13,7 @@ function frameIt() {
   });
   return;
 }
+
 $(document).ready(function(){
   getIt();
   frameIt();
