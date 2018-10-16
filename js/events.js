@@ -22,7 +22,7 @@ function pressIt() {
       alert('G was pressed');
     }
   });
-  return;  
+  return;
 }
 
 $(document).ready(function(){
