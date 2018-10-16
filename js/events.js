@@ -1,7 +1,7 @@
 //define functions here
 function getIt() {
-  
-  return;
+
+  $;
 }
 
 
