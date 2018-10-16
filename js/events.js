@@ -11,12 +11,12 @@ function frameIt() {
   $('img').on('load', function() {
     console.log("loaded Image")
   });
-  return;
+  return console.log('complete');
 }
 
 $(document).ready(function(){
   getIt();
-  //frameIt();
+  frameIt();
 // call functions here
 
 });
