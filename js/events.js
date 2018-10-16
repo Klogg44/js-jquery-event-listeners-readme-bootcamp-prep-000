@@ -10,9 +10,9 @@ function getIt() {
 function frameIt() {
   $('img').on('load',
   function(){
-    console.log("loaded Image");
+    $('img').classList.add('tasty');
   });
-  return console.log('complete');
+  return;
 }
 
 $(document).ready(function(){
