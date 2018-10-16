@@ -26,6 +26,11 @@ function pressIt() {
   return;
 }
 
+function submitIt() {
+
+  return;
+}
+
 $(document).ready(function(){
   getIt();
   frameIt();
