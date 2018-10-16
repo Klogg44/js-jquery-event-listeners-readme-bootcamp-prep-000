@@ -11,6 +11,7 @@ function frameIt() {
   $('img').on('load', function() {
     $('img').class.add('')
   });
+  return;
 }
 $(document).ready(function(){
   getIt();
